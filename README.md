@@ -1,0 +1,3 @@
+This is a simple notebook for testing the claim that an adversary could determine a secret key over a network by repeatedly submitting values and determining how close the value is to the key based on the time it takes for service to respond as seen [here](https://www.reddit.com/r/webdev/comments/1l5g40t/whats_timing_attack/?depth=4).
+
+It seems unlikely that this could work over the network with latency greater than 1/10th of a millisecond.  Any higher latency devolves to noise.
